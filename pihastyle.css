@@ -1,0 +1,152 @@
+.container {
+    max-width: 2000px; /* Increased width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 5px solid black; /* Add black border around the form */
+    background-color:#86beec; /* Example background color */
+    position: fixed; /* Position fixed to stay in place while scrolling */
+    top: 50px; /* Space under the header */
+    left: 50%; /* Align to the center horizontally */
+    transform: translateX(-50%); /* Adjust to center the container */
+}
+
+.form-page {
+    display: none;
+}
+
+.form-page:first-child {
+    display: block;
+}
+
+button {
+    margin-top: 10px;
+}
+
+header {
+    text-align: center; /* Center align header content */
+}
+
+header img {
+    width: 100%; /* Set image width to 100% of the container */
+    max-width: 100%; /* Ensure image does not exceed its original size */
+    height: 700px; /* Maintain aspect ratio */
+    display: block; /* Ensure image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.side-image {
+    position: fixed; /* Position fixed to stay in place while scrolling */
+    top: 0; /* Align to the top of the page */
+    right: 0; /* Align to the very right of the page */
+    z-index: 1; /* Ensure it appears above other content */
+    width: 400px; /* Set width of the side image */
+    height: 100vh; /* Set height to fill the entire viewport height */
+}
+#page2 {
+    max-width: 800px; /* Increase the max-width of the container */
+    width: 95%; /* Set a width of 90% to ensure responsiveness */
+    height: 80vh; /* Set the height to fill the entire viewport */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 10px solid black; /* Add black border around the form */
+    background-color: #86beec; /* Example background color */
+    position: fixed; /* Position fixed to stay in place while scrolling */
+    top: 40px; /* Space under the header */
+    left: 0; /* Align to the left corner horizontally */
+    transform: none; /* Remove horizontal centering transform */
+    display: none; /* Hide the form initially */
+    text-align: center; /* Center-align text */
+}
+
+
+
+#page2:first-child {
+    display: block; /* Display the form if it's the first child */
+}
+
+#page2 button {
+    margin-top: 10px; /* Margin for buttons */
+}
+
+#page2 header {
+    text-align: center; /* Center align header content */
+}
+
+#page2 header img {
+    width: 100%; /* Set image width to 100% of the container */
+    max-width: 100%; /* Ensure image does not exceed its original size */
+    height: 700px; /* Maintain aspect ratio */
+    display: block; /* Ensure image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+#page2 form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange form elements vertically */
+    align-items: center; /* Center-align form elements horizontally */
+}
+
+#page2 form label {
+    margin-bottom: 10px; /* Add spacing between labels */
+}
+
+#page2 form input,
+#page2 form select {
+    width: 100%; /* Set input fields to full width */
+    padding: 8px; /* Add padding for better appearance */
+    margin-bottom: 15px; /* Add spacing between input fields */
+}
+
+
+#page3 {
+    max-width: 800px; /* Increase the max-width of the container */
+    width: 95%; /* Set a width of 90% to ensure responsiveness */
+    height: 80vh; /* Set the height to fill the entire viewport */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    border: 10px solid black; /* Add black border around the form */
+    background-color:#86beec; /* Example background color */
+    position: fixed; /* Position fixed to stay in place while scrolling */
+    top: 50px; /* Space under the header */
+    left: 0; /* Align to the left corner horizontally */
+    transform: none; /* Remove horizontal centering transform */
+    display: none; /* Hide the form initially */
+    text-align: center; /* Center-align text */
+}
+
+
+
+#page3:first-child {
+    display: block; /* Display the form if it's the first child */
+}
+
+#page3 button {
+    margin-top: 10px; /* Margin for buttons */
+}
+
+#page3 header {
+    text-align: center; /* Center align header content */
+}
+
+#page3 header img {
+    width: 100%; /* Set image width to 100% of the container */
+    max-width: 100%; /* Ensure image does not exceed its original size */
+    height: 700px; /* Maintain aspect ratio */
+    display: block; /* Ensure image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+#page3 form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange form elements vertically */
+    align-items: center; /* Center-align form elements horizontally */
+}
+
+#page3 form label {
+    margin-bottom: 10px; /* Add spacing between labels */
+}
+
+#page3 form input,
+#page3 form select {
+    width: 100%; /* Set input fields to full width */
+    padding: 8px; /* Add padding for better appearance */
+    margin-bottom: 15px; /* Add spacing between input fields */
+}
